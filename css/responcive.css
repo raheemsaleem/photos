@@ -1,0 +1,132 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .navbar{
+        padding: 0px !important;
+    }
+    .class-icon a{
+        text-decoration: none;
+        background-color: #e74c3c;
+        color: white;
+        padding: 5px 10px !important;
+        margin-left: 2px !important;
+        border-radius: 5px;
+    }
+    
+    .h-text input{
+        width: 60%;
+    padding: 4px;
+        border: none;
+        font-size: 20px;
+        border-radius: 8px;
+    }
+    .h-text button{
+        padding: 12px;
+    }
+    .h-text h1{
+        margin-left: 10%;
+        font-size: 24px;
+        margin-left: -62px;
+    }
+    .camara{
+        font-size: 40px;
+        margin-right: 40px;
+    }
+    .h-text{
+        padding-top: 100px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .class-icon a{
+        text-decoration: none;
+        background-color: #e74c3c;
+        color: white;
+        padding: 5px 10px !important;
+        margin-left: 2px !important;
+        border-radius: 5px;
+    }
+    .h-text h1{
+        margin-left: 10%;
+        font-size: 24px;
+        margin-left: -30px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .class-icon a{
+        padding: 10px 20px !important;
+        border-radius: 5px;
+    }
+    
+.h-text{
+    color: wheat;
+    max-width: 700px;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 20%;
+    text-align: center;
+}
+.camara{
+    font-size: 40px;
+}
+.h-text h1{
+    font-family: sans-serif;
+    font-size: 3em;
+    line-height: 1.5em;
+}
+.h-text input{
+    width: 60%;
+padding: 10px;
+    border: none;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.h-text button{
+    width: 20%;
+    padding: 16px;
+    margin-bottom: 1px;
+}
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .class-icon a{
+        padding: 10px 20px !important;
+        border-radius: 5px;
+    }
+    
+.h-text{
+    color: wheat;
+    max-width: 700px;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 30% !important%;
+}
+.camara{
+    font-size: 40px;
+}
+.h-text h1{
+    font-family: sans-serif;
+    font-size: 3em;
+    line-height: 1.5em;
+}
+.h-text input{
+    width: 60%;
+padding: 10px;
+    border: none;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.h-text button{
+    width: 20%;
+    padding: 16px;
+    margin-bottom: 1px;
+}
+
+}
